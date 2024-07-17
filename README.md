@@ -1,5 +1,7 @@
 # gender-classification
-Gender classification task by using CLIP ViT model for creating embeddings.
+Gender classification task by using the CLIP ViT model for creating embeddings with artificial neuron network for classifying.
+
+Accuracy of this model on CelebA dataset is 99.1%, in real data is 94.5% ([as you can see in GenderClassification notebook](https://colab.research.google.com/drive/10bNIV-lKuZNIyjw9ho6JVpgk7ilmnX51?usp=sharing)).
 
 ### Usage
 In this repository you can find scripts for training models and for testing models. To use any of this provided instruments (exclude gui.py) you should load your testing/training datasets to package data, change paths to images and update datasets (use dataPreparing.loaders) in the code if it required.
